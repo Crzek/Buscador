@@ -1,40 +1,12 @@
 """
-        Autor: Sheyla Caya Gilarde
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        30/03/2020 - Creació    - Sheyla Caya Gilarde
-        12/04/2020 - implementació metodes - Sheyla Caya Gilarde
-"""
-""" La funció de la classe aeroport és guardar la informació de cada aeroport de la xarxa de vols del projecte.
-       ···
-       Atributs
-       ------------
-       IATA: str
-           codi IATA de l'aeroport de la xarxa
-       Nom: str
-           nom de l'aeroport de la xarxa
-       latitud: int
-           coordenada angular de latitud
-       longitud: int
-           coordenada angular de longitud
-       Connexions: str
-           conjunt de connexions que té l'aeroport junt amb els costos associats
+        30/03/2020 - Creació    - Erick Cruz Cedeño
+        12/04/2020 - implementació metodes - Erick Cruz Cedeño
 
-       Mètodes
-       ------------
-       get_nom ()
-           accedeix a l'atribut nom i retorna el valor corresponent
-       get_IATA ()
-           accedeix a l'atribut codi IATA i retorna el valor corresponent
-       get_latitud ()
-           accedeix al valor de latitud i retorna el valor corresponent
-       get_longitud ()
-           accedeix al valor de longitud i retorna el valor corresponent
-       get_conections ()
-           accedeix al valor de connexions i retorna el valor corresponent
-        set_xxx():
-            ens permeteix cambiar el valor de latribut
-       """
+        La funció de la classe aeroport és guardar la informació de cada aeroport de la xarxa de vols del projecte.
+"""  
 
 
 class Aeroport:

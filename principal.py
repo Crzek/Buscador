@@ -40,10 +40,10 @@ def delWays(list):
     '''
         funcio que permet eliminar objetes le las llista, pero abans em de verificar si la lista esta repetida, per aixo cridem un metode de la clase WAY(checkWay)
         aquest retorna un numero 0 o 1, 0 no es repeteix y 1 es repeteix y despres es retorna la llista nova sense elements repetits
-        Autor: Maria Martín Álvarez
+        Autor: Erick Cruz Cedeño
 
     Registre de canvis:
-        28/04/2020 - Creació - Maria Martín Álvarez
+        28/04/2020 - Creació - Erick Cruz Cedeño
 
     Parametres:
         list es una llista de objectes camins
@@ -60,10 +60,10 @@ def print_ways(list):
     '''
             Permet imprimir el camins, que seran las iteracions que realitze per trobar el la ruta optima
 
-            Autor: Sheyla Caya Gilarde
+            Autor: Erick Cruz Cedeño
 
             Registre de canvis:
-        29/04/2020 - Creació de la funció- Sheyla Caya Gilarde
+        29/04/2020 - Creació de la funció- Erick Cruz Cedeño
         parametre:
         list: que es la llista de camins
 
@@ -76,10 +76,10 @@ def print_Sol(list, solucions = 1):
     '''
         mostra per pantalla el contingut de la llista de forma que es visualitza cada element en una línia.
 
-        Autor: Maria Martín Álvarez
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        11/04/2020 - Creació de la funció- Maria Martín Álvarez
+        11/04/2020 - Creació de la funció- Erick Cruz Cedeño
 
         Parametres:
             list: un llista on es troben les solocions optimes
@@ -103,10 +103,10 @@ def mostra_menu(dicAero):
         Mostrar per pantalla el menu amb les opcions disponibles.
         Es demana a l'usuari que triï una de les opcions. En cas correcte retorna la opcion seleccionada i si el nombre no es correcta fa un recursió
 
-        Autor: Maria Martín Álvarez
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        30/03/2020 - Creació de la funció- Maria Martín Álvarez
+        30/03/2020 - Creació de la funció- Erick Cruz Cedeño
         02/04/2020 - modificació - Erick Cruz···
         Paràmetres
         ------------
@@ -132,10 +132,10 @@ def runOpcio(opcio,dicAero):
     """
         Execució de l'opció escollida
 
-        Autor: Maria Martín Álvarez
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        30/04/2020 - Creació de la funció- Maria Martín Álvarez
+        30/04/2020 - Creació de la funció- Erick Cruz Cedeño
 
         ···
         Paràmetres
@@ -158,11 +158,11 @@ def buscaVol(dicAero):
     """
        l'usuari introduira el codis de origen y desti y fará una verificacio si son correctes, en cas que no es fa un recursió
 
-        Autor: Iván Sánchez Madrigal
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        30/04/2020 - Creació de la funció- Iván Sánchez Madrigal
-        12/04/2020 - modificació - Iván Sánchez Madrigal
+        30/04/2020 - Creació de la funció- Erick Cruz Cedeño
+        12/04/2020 - modificació - Erick Cruz Cedeño
         ···
         Paràmetres
         ------------
@@ -181,10 +181,10 @@ def buscaVol(dicAero):
 def check_iata(dicAero, origen=None, desti=None):
     '''
         Ens permetra fer una verificacio si ya el valors introduits dels codis son correctes o erronis
-    Autor: Iván Sánchez Madrigal
+    Autor: Erick Cruz Cedeño
 
     Registre de canvis:
-    12/04/2020 - Creació - Iván Sánchez Madrigal
+    12/04/2020 - Creació - Erick Cruz Cedeño
     29/04/2020 - Modificacio -Erick Cruz Cedeño
     ···
     Paràmetres
@@ -228,10 +228,10 @@ def check_iata(dicAero, origen=None, desti=None):
 def menuinformacio(dicAero):
     """
     Execució de l'opció 2 per buscar la informació corresponent corresponent i es torna al menu principal
-    Autor: Iván Sánchez Madrigal
+    Autor: Erick Cruz Cedeño
 
     Registre de canvis:
-    29/03/2020 - Creació de la funció- Iván Sánchez Madrigal
+    29/03/2020 - Creació de la funció- Erick Cruz Cedeño
     ···
     Paràmetres
     ------------
@@ -269,10 +269,10 @@ def menuinformacio(dicAero):
 def informacio():
     """
     Execució de l'opció 2 per buscar la informació corresponent corresponent i es torna al menu principal
-    Autor: Iván Sánchez Madrigal
+    Autor: Erick Cruz Cedeño
 
     Registre de canvis:
-    30/03/2020 - Creació de la funció- Iván Sánchez Madrigal
+    30/03/2020 - Creació de la funció- Erick Cruz Cedeño
     ···
     Paràmetres
     ------------
@@ -290,10 +290,10 @@ def exit():
     """
         Execució de l'opció 3 per sortir de la funció del menú
 
-        Autor: Iván Sánchez Madrigal
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        30/03/2020 - Creació de la funció- Iván Sánchez Madrigal
+        30/03/2020 - Creació de la funció- Erick Cruz Cedeño
         Paràmetres
         ------------
         Retorna:
@@ -305,10 +305,10 @@ def main():
     """
         Execució del menu principal
 
-        Autor: Iván Sánchez Madrigal i Erick Cruz Cedeño
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        01/04/2020 - Creació de la funció- Iván Sánchez Madrigal i Erick Cruz Cedeño
+        01/04/2020 - Creació de la funció- Erick Cruz Cedeño i Erick Cruz Cedeño
         02/04/2020 - modificació - Erick Cruz
         ···
         Paràmetres

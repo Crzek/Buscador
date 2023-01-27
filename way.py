@@ -1,9 +1,9 @@
 """
-        Autor: Sheyla Caya Gilarde , Iván Sánchez Madrigal
+        Autor: Erick Cruz Cedeño
 
         Registre de canvis:
-        11/04/2020 - Creació    - Sheyla Caya Gilarde
-        12/04/2020 - modificacó - Iván Sánchez Madrigal
+        11/04/2020 - Creació    - Erick Cruz Cedeño
+        12/04/2020 - modificacó - Erick Cruz Cedeño
 
         Atributs:
             Route: lista
@@ -103,10 +103,10 @@ class Way:
             ejemplo:    l= ['BCN','MAD','BCN'] esta lista se repite
                         l=  ['BCN','MAD','LIS',MAD] esta lista se repite
 
-            Autor: Sheyla Caya Gilarde i Erick Cruz Cedeño
+            Autor: Erick Cruz Cedeño i Erick Cruz Cedeño
 
             Registre de canvis:
-                    11/04/2020 - Creació    - Sheyla Caya Gilarde
+                    11/04/2020 - Creació    - Erick Cruz Cedeño
                     12/04/2020 - modificacó - Erick Cruz Cedeño
 
 
@@ -122,7 +122,7 @@ class Way:
 
         Registre de canvis:
         11/04/2020 - Creació - Erick Cruz Cedeño
-        12/04/2020 - Modificació - Sheyla Caya Gilarde
+        12/04/2020 - Modificació - Erick Cruz Cedeño
 
 
         '''

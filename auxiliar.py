@@ -6,11 +6,11 @@ def distance(lat1, long1, lat2, long2):
     '''
         Permet calcular la distacia entre el ultim node fins el node objectiu
 
-        Autor: Maria Martín Álvarez , Iván Sánchez Madrigal
+        Autor: Erick Cruz Cedeño 
 
         Registre de canvis:
-        11/04/2020 - Creació    - Maria Martín Álvarez
-        12/04/2020 - Modificacó - Iván Sánchez Madrigal
+        11/04/2020 - Creació    - Erick Cruz Cedeño
+        12/04/2020 - Modificacó - Erick Cruz Cedeño
         Parametres:
             latitud1 i longitu1 que seran las del ultim aeroport de la llista y latitud2 i longitut 2 que seran las del aeroport de Desti
 
