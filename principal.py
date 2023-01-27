@@ -255,7 +255,7 @@ def menuinformacio(dicAero):
     elif opcio == 3:
         codi = str(input("Introdueix el codi de l'aeroport: ")).upper()
         ok = check_iata(dicAero,codi)  # EROOR en: 1.origen, 2.desti, 3.O y D
-        if ok is 0: #solo hay origen y es correcto
+        if ok == 0: #solo hay origen y es correcto
             aero = dicAero.get(codi)
             aero.print_conections(dicAero)
 
