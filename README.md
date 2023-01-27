@@ -3,4 +3,4 @@
 Buscador de Vuelos con menor tiempo
 
 ## Red Aeropuertos
-![Red](https://raw.githubusercontent.com/Crzek/Buscador/master/RED-Aero_Screenshot.png)
+![Red](https://github.com/Crzek/Buscador/blob/master/redAero/RED-Aero_Screenshot.png)
