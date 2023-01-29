@@ -1,27 +1,3 @@
-"""
-        Autor: Erick Cruz Cedeño
-
-        Registre de canvis:
-        11/04/2020 - Creació    - Erick Cruz Cedeño
-        12/04/2020 - modificacó - Erick Cruz Cedeño
-
-        Atributs:
-            Route: lista
-            Cost_acumulat: enter
-            Funtion_f : enter
-
-        Metodes:
-            updateWay() : actualiza les dades del cami amb els nous costos
-
-            expandRoute(): expnadeix el ruta del cami
-
-            print_route() : Permet fer una impresió per pantalla de les rutes que te cada cami
-
-            get_XXXX() : permet obternir el que conte el atribut XXXX
-
-            set_XXXX() : permet reaccinar un altre valor a l'atribut XXXX
-
-"""
 from auxiliar import distance, hh_to_ss, time , ss_to_hhmm
 import copy
 
